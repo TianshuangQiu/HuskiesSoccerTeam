@@ -85,6 +85,8 @@ public class SoccerNetwork {
 
         //what passes am i making?
         double time = 0;
+
+        currentLoop:
         for (int lineNo = 0; lineNo < originalFile.size(); lineNo++) {
             List<String> line = originalFile.get(lineNo);
             System.out.println(line);
